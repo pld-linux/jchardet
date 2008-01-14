@@ -1,5 +1,6 @@
 %include	/usr/lib/rpm/macros.java
 Summary:	Java port of Mozilla's automatic charset detection algorithm
+Summary(pl.UTF-8):	Port do Javy algorytmu automatycznego rozpoznawania zestawu znaków z Mozilli
 Name:		jchardet
 Version:	1.0
 Release:	0.1
@@ -26,6 +27,17 @@ The original source in C++ can be found from
 <http://lxr.mozilla.org/mozilla/source/intl/chardet/>.
 
 More information can be found at
+<http://www.mozilla.org/projects/intl/chardet.html>.
+
+%description -l pl.UTF-8
+chardet to port do Javy źródeł algorytmu automatycznego rozpoznawania
+zestawu znaków z Mozilli. Pierotnym autorem jest Frank Tang. Ten
+pakiet zawiera port oryginalnego kodu do Javy.
+
+Oryginalny kod źródłowy w C++ można znaleźć pod adresem
+<http://lxr.mozilla.org/mozilla/source/intl/chardet/>.
+
+Więcej informacji można znaleźć pod adresem
 <http://www.mozilla.org/projects/intl/chardet.html>.
 
 %prep
