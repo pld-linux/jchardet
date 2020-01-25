@@ -1,4 +1,3 @@
-%include	/usr/lib/rpm/macros.java
 Summary:	Java port of Mozilla's automatic charset detection algorithm
 Summary(pl.UTF-8):	Port do Javy algorytmu automatycznego rozpoznawania zestawu znaków z Mozilli
 Name:		jchardet
